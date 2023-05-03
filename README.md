@@ -6,6 +6,10 @@ By default, the scripts in this repository will produce the synthetic EISCAT_3D 
 
 The hitch is that you need to have both a working python setup _and_ a working R setup. (The R code runs a slightly modified version of I. Virtanen's ISgeometry package. This package is _necessary_ for estimating uncertainties of electron density, ion temperature, electron/ion temperature, and ion convection velocity.
 
+## Need to install R?
+
+If you're running Linux, just visit [www.r-project.org](https://www.r-project.org/) and follow the white rabbit.
+
 ## ´1_select_beam_geometry.py´
 
 * Specify transmitter and receiver locations
@@ -17,6 +21,11 @@ The hitch is that you need to have both a working python setup _and_ a working R
 * Read output from ´1_select_beam_geometry.py´
 * Specify radar system parameters such as noise temperature, duty cycle, transmission frequency and power, and electron density and width for estimation of transmitter self-noise, etc.
 * Output relative ACF noise levels
+
+_NOTE:_ If R is installed on your system, you can execute ´2_get_noise_estimates.R´ with the following command:
+```bash
+R CMD BATCH r-example-function-1.R
+```
 
 ## ´3_get_gemini_for_all_timestamps_at_e3d_points.py´
 
