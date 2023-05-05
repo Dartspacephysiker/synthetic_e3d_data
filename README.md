@@ -29,7 +29,11 @@ R CMD BATCH r-example-function-1.R
 
 ## ´3_get_gemini_for_all_timestamps_at_e3d_points.py´
 
-* Coming soon!
-* Big idea is to pull in synthetic/simulated data specified on some grid, and to 
-** Resample these data at the points specified in ´1_select_beam_geometry.py´
-** Estimate uncertainties by specifying an integration time and using ´ErrorTable_E3D_4params.txt´ as well as relative ACF noise levels produced by ´2_get_noise_estimates.R´
+* If you're going to run this script, you need to download some GEMINI data and put it somewhere where the script can find it. (Download data here: https://drive.google.com/drive/folders/1GeTc4rKzXXcPxg7jT-AmZE9MU0_jOnMP?usp=share_link )
+
+* The big idea is to pull in synthetic/simulated data specified on some grid, and to
+
+  * Resample these data at the points specified in ´1_select_beam_geometry.py´
+
+  * Estimate uncertainties by specifying an integration time and using ´ErrorTable_E3D_4params.txt´ as well as relative ACF noise levels produced by ´2_get_noise_estimates.R´
+
