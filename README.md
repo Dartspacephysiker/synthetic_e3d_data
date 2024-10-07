@@ -1,3 +1,6 @@
+# REPOSITORY ARCHIVED
+**Please note that this repository is out of date. The related [e3doubt repository](https://github.com/Dartspacephysiker/e3doubt) is better and more complete.**
+
 So you got an idea for an EISCAT_3D experiment, and you want to estimate what sorts of uncertainties you'll get and what integration times are required?
 
 You've come to the right place!
